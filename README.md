@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
  
 # Description  
-This application in run in the terminal, and invoked with the command node index.js. Create your next README.md file using this application, and save time doing the stuff you love- coding!  
+This application in run in the terminal, and invoked with the command node index.js. Create your next README.md file using this application, and save time doing the stuff you love- coding!  Screen recording of application usage: https://watch.screencastify.com/v/YalGg0rlQ4xqWMRVab1o
 # Table of contents  
 [Installation](#installation)  
 [Usage](#usage)  
