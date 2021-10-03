@@ -28,7 +28,7 @@ const questions = [
     {
         type: 'input',
         name: 'install',
-        message: 'What necessary dependencies must be installed to run this application? Provide installation steps.'
+        message: 'What necessary dependencies must be installed to run this application?'
     },
     {
         type: 'input',
@@ -48,7 +48,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'testing',
+        name: 'tests',
         message: 'What is the command used to run tests on this application?'
     },
 
@@ -59,11 +59,11 @@ function writeToFile(fileName, data) { }
 
 inquirer.prompt(questions).then(answers => {
     console.log(answers);
-    const fileName = `README.md`; //should be the title
+    const fileName = `${answers.title}`;
 
     const content = generateMarkdown(answers);
 
-    fs.writeFile('README.md', content, err => {
+    fs.writeFile('testREADME.md', content, err => {
         if (err) {
             return console.log(err);
         } else {
