@@ -1,5 +1,5 @@
 # Good README Generator
-[![License: GNU GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
  
 # Description  
 This application in run in the terminal, and invoked with the command node index.js. Create your next README.md file using this application, and save time doing the stuff you love- coding!  
@@ -13,9 +13,9 @@ This application in run in the terminal, and invoked with the command node index
 # Installation 
 The following dependencies must be installed to use this application: node.js inquirer  
 # Usage  
-How to use the application: Run this application in your terminal  
+How to use the application: This application is run in the terminal  
 # License  
-This project is licensed under the GNU GPLv3 license.  
+This project is licensed under the MIT license.  
 # Contributors  
 Sole Author  
 # Tests

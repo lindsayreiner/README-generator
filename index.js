@@ -69,7 +69,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    writeFile(`${fileName}README.md`, data, (err) => {
+    writeFile('README.md', data, (err) => {
         if (err) {
             return console.log(err);
         } else {
