@@ -1,9 +1,3 @@
-//MIT: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-//ISC: [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
-//GNU GPLv3: [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-
-
-
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
@@ -51,7 +45,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
     return `# ${data.title}
 ${renderLicenseSection(data.license)}  
-Github Link: https://github.com/${data.github}  
+ 
 # Description  
 ${data.description}  
 # Table of contents  
@@ -72,7 +66,8 @@ ${data.contributors}
 # Tests
 Command used to run tests on this application: ${data.tests}  
 # Questions  
-If you have any questions, please contact me at ${data.email}`;
+If you have any questions, please contact me at ${data.email}
+Github Link: https://github.com/${data.github} `;
 }
 
 module.exports = generateMarkdown;
